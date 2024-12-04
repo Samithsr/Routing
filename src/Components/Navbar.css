@@ -1,0 +1,53 @@
+.navbar_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    gap:50px;
+    list-style: none;
+    border-bottom: 1px solid rgba(146, 138, 138, 0.642);
+}
+
+.navbar_list  > li > a{
+    text-decoration: none;
+    /* font-size: 20px; */
+    /* font-weight: 500; */
+}
+
+.navbar_list a.active {
+    color: blue;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* thus one coding in class
+nav{
+    border-bottom: 1px solid rgba(146, 138, 138, 0.642);
+}
+.navbar_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar_list a{
+   margin: 10px 20px;
+} */
+
+
+
+
+    /* if you are assign classname in every a tag use cls name (or)  direct write > use */
+     
+/* .navbarname{
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+    font-weight: 500px;
+}
